@@ -22,9 +22,9 @@ Para a realização deste trabalho recorremos aos notebooks trabalhados em aula 
 # Dicionário dos dados
 Uma explicação do conteúdo em `netflix_data.csv`.
 
-| Nome da coluna        | Significado          
-| ------------- |:-------------:
-| `show_id` | ID do programa
+| Nome da coluna        | Significado         | Possíveis valores  |       
+| ------------- |:-------------: -----:|
+| `show_id` | ID do programa |
 | `type` | Tipo de conteúdo: filme ou TV show 
 | `title` | Título
 | `director` | Realizador/a       
