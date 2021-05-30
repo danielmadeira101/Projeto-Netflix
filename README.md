@@ -18,3 +18,20 @@ Para a realização deste trabalho recorremos aos notebooks trabalhados em aula 
 8. Percentagem de filmes e TV shows disponíveis.
 9. Países com mais produções.
 10. Duração média dos filmes.
+
+# Dicionário dos dados
+
+Uma explicação do conteúdo em `netflix_data.csv`.
+
+| Nome da coluna        | Significado           | Possíveis valores  |
+| ------------- |:-------------:| -----:|
+| `data` | Data da publicação dos dados | DD-MM-YYYY |
+| `data_dados` | Data e hora da recolha dos dados apresentados (quando omitida nos relatórios, assume-se como sendo a data da publicação dos dados). **Geralmente, os dados são reportados até às 24h do dia anterior à `data` (equivalentes às 00h do dia de `data`, sendo este último o formato utilizado).** | DD-MM-YYYY HH:MM|
+| `confirmados` | Casos confirmados      | Inteiro >= 0 |
+| `confirmados_arsnorte` | Casos confirmados na ARS Norte      | Inteiro >= 0 |
+| `confirmados_arscentro` | Casos confirmados na ARS Centro      | Inteiro >= 0 |
+| `confirmados_arslvt` | Casos confirmados na ARS Lisboa e Vale do Tejo      | Inteiro >= 0 |
+| `confirmados_arsalentejo` | Casos confirmados na ARS Alentejo     | Inteiro >= 0 |
+| `confirmados_arsalgarve` | Casos confirmados na ARS Algarve    | Inteiro >= 0 |
+| `confirmados_acores` | Casos confirmados na Região Autónoma dos Açores | Inteiro >= 0 |
+| `confirmados_madeira` | Casos confirmados na Região Autónoma da Madeira  |  Inteiro >= 0 |
