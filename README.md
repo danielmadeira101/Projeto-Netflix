@@ -4,10 +4,10 @@ Análise dos dados da Netflix disponibilizados no site kaggle.com. Trabalho real
 # Contexto
 O objetivo deste trabalho passa pela análise de um pacote de dados da plataforma online Netflix. Este conjunto de dados consiste nos programas de TV e filmes disponíves na plataforma, juntamente com informações sobre os mesmos, como a data de lançamento, o país, etc. O CSV onde constam estes dados foi recolhido pelo Fixable, um mecanismo de pesquisa de terceiros da Netflix, e está disponibilizado no site kaggle.com.
 
-#Bibliografia
+# Bibliografia
 Para a realização deste trabalho recorremos aos notebooks trabalhados em aula com o professor, e disponibilizados no Inforestudante, bem como à documentação do matplotlib (https://matplotlib.org/) e do pandas (https://pandas.pydata.org/docs/), e claro, ao pacote de dados da Netflix (https://www.kaggle.com/shivamb/netflix-shows).
 
-#Estrutura
+# Estrutura
 1. Análise dos dados do CSV.
 2. Número de filas no dataframe.
 3. Colunas presentes no dataframe.
